@@ -80,7 +80,7 @@ print("Register No: 212222230026")
 print(f'Initial Weight: {initial_weight:.8f}, Initial Bias: {initial_bias:.8f}\n')
 
 loss_function = nn.MSELoss()
-optimizer = torch.optim.SGD(model.parameters(), lr=0.001)
+optimizer = torch.optim.SGD(model.parameters(), lr=0.0001)
 
 epochs = 100
 losses = []
