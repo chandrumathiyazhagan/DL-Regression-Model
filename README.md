@@ -147,7 +147,7 @@ print("\nModel saved as 'linear_regression_model.pth'")
 
 ### New Sample Data Prediction
 
-![Screenshot 2025-03-26 235259](https://github.com/user-attachments/assets/9d9fcf8e-747e-497e-8dd0-4a2c047e65f9)
+![Screenshot 2025-03-27 091347](https://github.com/user-attachments/assets/2cf7a975-5823-444e-8f5c-ab6bae30494e)
 
 ## RESULT
 Thus, a neural network regression model was successfully developed and trained using PyTorch.
