@@ -128,9 +128,7 @@ print("\nName: CHANDRU M")
 print("Register No: 212222230026")
 print(f"\nPrediction for x = 120: {y_new_pred:.8f}")
 
-# Save the trained model
-torch.save(model.state_dict(), 'linear_regression_model.pth')
-print("\nModel saved as 'linear_regression_model.pth'")
+torch.save(model.state_dict(), 'chandru22008631.pth')
 
 
 ```
@@ -147,7 +145,7 @@ print("\nModel saved as 'linear_regression_model.pth'")
 
 ### New Sample Data Prediction
 
-![Screenshot 2025-03-27 091347](https://github.com/user-attachments/assets/2cf7a975-5823-444e-8f5c-ab6bae30494e)
+![Screenshot 2025-03-27 142612](https://github.com/user-attachments/assets/05d53b2b-6df6-4041-8ca3-16702022846e)
 
 ## RESULT
 Thus, a neural network regression model was successfully developed and trained using PyTorch.
