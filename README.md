@@ -51,8 +51,9 @@ import matplotlib.pyplot as plt
 
 torch.manual_seed(70)
 
-X = torch.linspace(1, 50, 50).reshape(-1, 1)
-e = torch.randint(-8, 9, (50, 1), dtype=torch.float)
+# Generate noisy data from 1 to 70
+X = torch.linspace(1, 70, 70).reshape(-1, 1)
+e = torch.randint(-8, 9, (70, 1), dtype=torch.float)
 y = 2 * X + 1 + e
 
 plt.scatter(X.numpy(), y.numpy(), color='red')
@@ -126,6 +127,11 @@ y_new_pred = model(x_new).item()
 print("\nName: CHANDRU M")
 print("Register No: 212222230026")
 print(f"\nPrediction for x = 120: {y_new_pred:.8f}")
+
+# Save the trained model
+torch.save(model.state_dict(), 'linear_regression_model.pth')
+print("\nModel saved as 'linear_regression_model.pth'")
+
 
 ```
 
